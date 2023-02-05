@@ -12,10 +12,16 @@ jobs:
       - image: cimg/postgres:15.1
     steps:
       - checkout
-      - run:
-        name: install dependencies
-        command: npm install
-        
+        - run:
+          name: install dependencies
+          command: npm install
+        - run:
+          name: instalar requirimientos
+          command: pip install -r requirements.txt
+        - run:
+          name: Docker-compose
+          command: docker-compose up -d
+
       #Codigo para correr pruebas
       #- run:
         #name: Run Tests
