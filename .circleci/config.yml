@@ -10,32 +10,32 @@ jobs:
     docker:
       - image: cimg/go:1.17
       - image: cimg/postgres:15.1
-    steps:
-        - checkout
-        - run:
-            name: Volver atras
-            command: cd ..
-        - run:
-            name: Seleccionar carpeta frontend
-            command: cd .\frontend\
-        - run:
-            name: install dependencies
-            command: npm install
-        - run:
-            name: Volver atras
-            command: cd ..
-        - run:
-            name: selecciona carpeta backend      
-            command: cd  .\backend\
-        - run:
-            name: instalar requirimientos
-            command: pip install -r requirements.txt
-        - run:
-            name: Volver atras
-            command: cd ..    
-        - run:
-            name: Docker-compose
-            command: docker-compose up -d
+    #steps:
+    #    - checkout
+    #    - run:
+    #        name: Volver atras
+    #        command: cd ..
+    #    - run:
+    #        name: Seleccionar carpeta frontend
+    #        command: cd .\frontend\
+    #    - run:
+    #        name: install dependencies
+    #        command: npm install
+    #    - run:
+    #        name: Volver atras
+    #        command: cd ..
+    #    - run:
+    #        name: selecciona carpeta backend      
+    #        command: cd  .\backend\
+    #    - run:
+    #        name: instalar requirimientos
+    #        command: pip install -r requirements.txt
+    #    - run:
+    #        name: Volver atras
+    #        command: cd ..    
+    #    - run:
+    #        name: Docker-compose
+    #        command: docker-compose up -d
 
       #Codigo para correr pruebas
       #- run:
