@@ -19,11 +19,11 @@ jobs:
             name: install dependencies
             command: npm install
         - run:
-          name: Volver atras
-          command: cd ..
+            name: Volver atras
+            command: cd ..
         - run:
-          name: selecciona carpeta backend      
-          command: cd  .\backend\
+            name: selecciona carpeta backend      
+            command: cd  .\backend\
         - run:
             name: instalar requirimientos
             command: pip install -r requirements.txt
