@@ -1,6 +1,12 @@
 # PRUEBA TECNICA
 
-Soy Julio Madero.
+Soy Julio Madero este es el repositorio para el devOps Challengue.
+dentro del repositorio estan los archivos para la Prueba Uno los cuales son:
+    Diagrama de red prueba tencnica.drawio
+    Imagen diagrama de red.png
+    Prueba técnica explicación del diagrama de red.docx
+y el pdf con la consigna:
+    prueba-tecnica (1).pdf
 
 Los pasos para iniciar el proyecto son:
 
