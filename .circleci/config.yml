@@ -10,7 +10,7 @@ jobs:
     docker:
       - image: cimg/go:1.17
       - image: cimg/postgres:15.1
-    #steps:
+    steps:
     #    - checkout
     #    - run:
     #        name: Volver atras
