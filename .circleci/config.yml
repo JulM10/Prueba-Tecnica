@@ -13,11 +13,23 @@ jobs:
     steps:
         - checkout
         - run:
+          name: Seleccionar carpeta frontend
+          command: cd .\frontend\
+        - run:
             name: install dependencies
             command: npm install
         - run:
+          name: Volver atras
+          command: cd ..
+        - run:
+          name: selecciona carpeta backend      
+          command: cd  .\backend\
+        - run:
             name: instalar requirimientos
             command: pip install -r requirements.txt
+        - run:
+            name: Volver atras
+            command: cd ..    
         - run:
             name: Docker-compose
             command: docker-compose up -d
