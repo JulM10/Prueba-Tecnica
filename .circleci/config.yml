@@ -12,3 +12,9 @@ jobs:
       - image: cimg/postgres:15.1
     steps:
       - checkout
+      - run:
+        name: install dependencies
+        command: npm install
+      - run:
+        name: Run Tests
+        command: npm run test
