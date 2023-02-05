@@ -2,7 +2,7 @@
 
 Soy Julio Madero.
 
-Los pasos para iniciar el proyexto son:
+Los pasos para iniciar el proyecto son:
 
 ## CD EN BACKEND
     Para instalar los requirimientos de la aplicación 
@@ -17,9 +17,9 @@ Los pasos para iniciar el proyexto son:
  Para instalar el FrontEnd
     npm install
  
- npm build
+    npm run build
 
- Para iniciar el FrontEnd de la aplicación hay que correr el siguiente comando
+Para iniciar el FrontEnd de la aplicación hay que correr el siguiente comando
     npm start
  
 
@@ -28,3 +28,10 @@ Los pasos para iniciar el proyexto son:
  Para correr el docker-compose hay que ejecutar el comando 
  docker-compose up -d
  
+# Como subir el proyecto a google cloud:
+
+1ero entrar a la cuenta de google cloud
+2do crear un BUCKET 
+3ero importar los archivos del proyecto 
+4to configurar un load balancer para la pagina web utilizar el HTTPS load balancer publico, configurar el frontend, backend.
+5to
