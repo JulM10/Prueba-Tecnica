@@ -13,8 +13,8 @@ jobs:
     steps:
         - checkout
         - run:
-          name: Seleccionar carpeta frontend
-          command: cd .\frontend\
+            name: Seleccionar carpeta frontend
+            command: cd .\frontend\
         - run:
             name: install dependencies
             command: npm install
