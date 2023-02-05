@@ -15,8 +15,14 @@ jobs:
       - run:
         name: install dependencies
         command: npm install
-        
-        'Codigo para correr pruebas'
-      '- run:
-        name: Run Tests
-        command: npm run test'
+      - run:
+        name: instalar requirimientos
+        command: pip install -r requirements.txt
+      - run:
+        name: Docker-compose
+        command: docker-compose up -d
+
+      #Codigo para correr pruebas
+      #- run:
+        #name: Run Tests
+        #command: npm run test'
