@@ -20,7 +20,7 @@ services:
     ports:
       - "8000:8000"
   db:
-    image: postgres:latest
+    image: postgres:15.1
     environment:
       POSTGRES_DB: mydb
       POSTGRES_USER: myuser
